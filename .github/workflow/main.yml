@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Checkout repository
     - uses: actions/checkout@v2
-      with:
-        node-version: 16
 
     - name: Build and Deploy
       run: surge token --b387dd405071619414147c8f7ced5a7e
