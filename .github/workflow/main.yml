@@ -12,6 +12,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Build and Deploy
-      run: surge token --b387dd405071619414147c8f7ced5a7e
+      run: surge token b387dd405071619414147c8f7ced5a7e
       
       run: surge --project ./parcial1rssl.surge.sh
