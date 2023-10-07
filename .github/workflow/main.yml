@@ -1,11 +1,13 @@
-name: Deploy Website
+name: Deploy to Surge
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Deploying to Surge
       
     steps:
     - name: Checkout repository
